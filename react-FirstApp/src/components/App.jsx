@@ -1,4 +1,6 @@
+<<<<<<< Updated upstream
 import {Product} from './Product';
+=======
 import { Product } from "./Product";
 import { BookList } from "./BookList";
 const favouriteBooks = [
@@ -24,6 +26,7 @@ export default function App() {
         imgUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?dpr=2&h=480&w=640"
         price={14.29}
       />
+=======
       <h1>Books of the week</h1>
       <BookList books={favouriteBooks} />
 >>>>>>> Stashed changes
