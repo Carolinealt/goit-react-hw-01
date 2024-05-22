@@ -1,0 +1,32 @@
+.container {
+    border: 2px black solid;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+
+}
+
+.friendsImg {
+    width: 100px;
+    margin: 10px 0;
+}
+
+.friendsName {
+    font-size: 30px;
+    text-align: center;
+}
+
+.friendsStatus {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.online {
+    color: rgb(12, 175, 121);
+}
+
+.offline {
+    color: brown;
+}

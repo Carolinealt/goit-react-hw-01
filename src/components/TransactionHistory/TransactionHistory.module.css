@@ -1,0 +1,22 @@
+thead {
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    font-size: 30px;
+}
+
+th {
+    padding: 30px 40px;
+}
+
+tbody td{
+    padding: 29px;
+}
+
+tbody tr{
+    text-align: center;
+    font-size: 19px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(209, 209, 209);
+  }

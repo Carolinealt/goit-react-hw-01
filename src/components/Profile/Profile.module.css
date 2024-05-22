@@ -1,0 +1,62 @@
+.container {
+    border: 5px solid black;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: #f5f5f5;
+
+}
+
+.containerAvatar {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.mainImg{
+    border-radius: 100%;
+    background-color: #3e3e3e;
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.desk {
+    font-size: 20px;
+    color: #545454;    
+
+}
+
+.mainName {
+    composes: desk;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+
+
+.statsList {
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.statsItem {
+    width: 100%;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.statsNaming {
+    font-size: 19px;
+}
+
+.statsValue {
+    font-size: 19px;
+    font-weight: bold;
+
+}
